@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NICE.SdpProcessor.Adapters.Output.Console\NICE.SdpProcessor.Adapters.Output.Console.csproj" />
+    <ProjectReference Include="..\NICE.SdpProcessor.Adapters.Input.File\NICE.SdpProcessor.Adapters.Input.File.csproj" />
+    <ProjectReference Include="..\NICE.SdpProcessor\NICE.SdpProcessor.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="sdp_input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

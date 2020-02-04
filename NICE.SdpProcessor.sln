@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{20991C31-9E20-41E0-91B7-842C885A6977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{173BAC26-A6A2-4CE7-A1F8-24835584EB3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NICE.SdpProcessor.App", "src\NICE.SdpProcessor.App\NICE.SdpProcessor.App.csproj", "{99ED1E2D-EE78-48C8-B0EE-25C629F3C721}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NICE.SdpProcessor", "src\NICE.SdpProcessor\NICE.SdpProcessor.csproj", "{C7A2EDE7-39C7-436E-A991-3788F14BC617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NICE.SdpProcessor.Adapters.Input.File", "src\NICE.SdpProcessor.Adapters.Input.File\NICE.SdpProcessor.Adapters.Input.File.csproj", "{CE93DC4A-9A66-4036-B5AB-6F20466AE136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NICE.SdpProcessor.Adapters.Output.Console", "NICE.SdpProcessor.Adapters.Output.Console\NICE.SdpProcessor.Adapters.Output.Console.csproj", "{86BB429E-6C30-40E2-BE65-9E8F515B472A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdpProcessor.Tests", "test\SdpProcessor.Tests\SdpProcessor.Tests.csproj", "{3FFCEA85-A9C9-4118-A3EB-6EDBFF30053C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99ED1E2D-EE78-48C8-B0EE-25C629F3C721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99ED1E2D-EE78-48C8-B0EE-25C629F3C721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99ED1E2D-EE78-48C8-B0EE-25C629F3C721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99ED1E2D-EE78-48C8-B0EE-25C629F3C721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A2EDE7-39C7-436E-A991-3788F14BC617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A2EDE7-39C7-436E-A991-3788F14BC617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A2EDE7-39C7-436E-A991-3788F14BC617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A2EDE7-39C7-436E-A991-3788F14BC617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE93DC4A-9A66-4036-B5AB-6F20466AE136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE93DC4A-9A66-4036-B5AB-6F20466AE136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE93DC4A-9A66-4036-B5AB-6F20466AE136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE93DC4A-9A66-4036-B5AB-6F20466AE136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BB429E-6C30-40E2-BE65-9E8F515B472A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BB429E-6C30-40E2-BE65-9E8F515B472A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BB429E-6C30-40E2-BE65-9E8F515B472A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BB429E-6C30-40E2-BE65-9E8F515B472A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFCEA85-A9C9-4118-A3EB-6EDBFF30053C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFCEA85-A9C9-4118-A3EB-6EDBFF30053C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFCEA85-A9C9-4118-A3EB-6EDBFF30053C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFCEA85-A9C9-4118-A3EB-6EDBFF30053C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99ED1E2D-EE78-48C8-B0EE-25C629F3C721} = {173BAC26-A6A2-4CE7-A1F8-24835584EB3D}
+		{C7A2EDE7-39C7-436E-A991-3788F14BC617} = {173BAC26-A6A2-4CE7-A1F8-24835584EB3D}
+		{CE93DC4A-9A66-4036-B5AB-6F20466AE136} = {173BAC26-A6A2-4CE7-A1F8-24835584EB3D}
+		{86BB429E-6C30-40E2-BE65-9E8F515B472A} = {173BAC26-A6A2-4CE7-A1F8-24835584EB3D}
+		{3FFCEA85-A9C9-4118-A3EB-6EDBFF30053C} = {20991C31-9E20-41E0-91B7-842C885A6977}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA3C7F71-8768-444B-925F-57FE029CCE3C}
+	EndGlobalSection
+EndGlobal
